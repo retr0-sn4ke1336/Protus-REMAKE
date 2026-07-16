@@ -32,6 +32,6 @@ def setupProtus():
             else:
                 print("Unknown distro detected!")         
 
-    subprocess.run("pip install scapy --break-system-packages && clang++ --std=c++20 modules/modules_parser.cpp -o modules/modules_parser && clang++ --std=c++20 core/protus_parser.cpp -o core/protus_parser", shell=True)  
+    subprocess.run("pip install -r requirements.txt --break-system-packages && clang++ --std=c++20 modules/modules_parser.cpp -o modules/modules_parser && clang++ --std=c++20 core/protus_parser.cpp -o core/protus_parser", shell=True)  
 
 setupProtus()

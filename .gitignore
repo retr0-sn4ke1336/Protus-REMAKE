@@ -10,6 +10,7 @@
 
 # Python
 __pycache__/
+venv/
 modules/__pycache__/
 *.py[cod]
 *$py.class
@@ -49,6 +50,7 @@ Makefile
 *.json.tmp
 communication.json
 *.log
+subdomains_found.txt
 
 # OS
 .DS_Store

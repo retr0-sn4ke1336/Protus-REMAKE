@@ -1,0 +1,4 @@
+pathlib==1.0.1
+pyfiglet==1.0.4
+scapy==2.7.0
+sockets==1.0.0
